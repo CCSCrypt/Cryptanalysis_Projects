@@ -1,0 +1,7 @@
+# now we will generate the boomerang connectivity table
+# bct = np.zeros((256, 256), dtype=int)
+# for x in range(256):
+#     for y in range(256):
+#         for z in range(256):
+#             if ddt[x, z] > 0 and ddt[y, z] > 0:
+#                 bct[x, y] += ddt[x, z] * ddt[y, z]
